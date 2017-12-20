@@ -17,7 +17,7 @@ function nameToAttributes(drivers)
 function attributesToPhrase(drivers){
     const arrText=drivers.map(function(nm)
     {
-      return {nm.name+' is from '+nm.hometown};
+      return nm.name+' is from '+nm.hometown;
     });
     return arrText;
 }
